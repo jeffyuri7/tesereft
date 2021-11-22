@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
 
 :root {
     --primary-color: #160C28;
@@ -19,12 +19,14 @@ body {
 
 div {
     width: 680px;
-    padding: 40px;
+    padding: 50px;
     margin: 50px auto;
 }
 
 .p-conteudo {
     font-family: 'Fira Code', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
     color: var(--text-color);
 }
 
@@ -33,11 +35,12 @@ div {
 }
 
 .vetor {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 40px auto;
     display: block;
 }
 
 .h1-titulo {
+    font-family: 'Fira Code', sans-serif;
     color: var(--secondary-color);
+    font-size: 1em;
 }
